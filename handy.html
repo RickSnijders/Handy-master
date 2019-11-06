@@ -9,12 +9,12 @@
 <body>
 	<img id="logo" src="img/logo.jpg">
 	<nav id="menu">
-		<ul>
-			<li> HOME</li>
-			<li> OVER ONS <i class="fas fa-chevron-down"></i> </li>
-			<li> PORTFOLIO </li>
-			<li> NIEUWS</li>
-			<li> CONTACT </li>
+		<ul id="mainMenu">
+			<a><li class="menuItm menuHome"> HOME</li></a>
+			<li  id="button" class="menuItm" onclick="openMenu()"> OVER ONS <i class="fas fa-chevron-down"></i> </li>
+			<a><li class="menuItm"> PORTFOLIO </li></a>
+			<a><li class="menuItm"> NIEUWS</li></a>
+			<a><li class="menuItm"> CONTACT </li></a>
 		</ul>
 	</nav>
 	<img id="header" src="img/header.jpg">
@@ -22,8 +22,19 @@
 	<div class="center">
 		<div id="banner">	
 			<img class="banneritm" src="img/banner-1.jpg">
+			
 			<img class="banneritm" src="img/banner-2.jpg">
+
 			<img class="banneritm" src="img/banner-3.jpg">
+			<div class="banneritmbox">
+				<p>GESCHIEDENIS</p>
+			</div>
+			<div class="banneritmbox2">
+				<p>DEALS</p>
+			</div>
+			<div class="banneritmbox3">
+				<p>DIENSTEN</p>
+			</div>
 		</div>
 	</div>
 	<div id="geleBalk">
@@ -32,5 +43,63 @@
 		<p class="geleBalkTxt geelKnop">MEER WETEN?</p>
 	</div>
 	<img id="footer" src="img/footer.jpg">
+
+	
+	<div class="banner2 center">
+		<div class="banneritm2">
+			<i class="far fa-handshake bannericn"></i>
+			<p class="banner2head">DEALS</p>
+			<p class="banner2txt">BEKIJK ONZE DEALS</p>
+		</div>
+		<div class="banneritm2">
+			<i class="fas fa-toolbox bannericn"></i>
+			<p class="banner2head">DIENSTEN</p>
+			<p class="banner2txt">BEKIJK ONZE DIENSTEN</p>
+		</div>
+		<div class="banneritm2">
+			<i class="far fa-envelope bannericn"></i>
+			<p class="banner2head">CONTACT</p>
+			<p class="banner2txt">STUUR EEN BERICHT</p>
+		</div>
+	</div>
+	<div class="overOns center">
+		<div id="overOnsdiv">	
+			<h1 class="footerTitle">Over Ons</h1>
+			<p class="overOnsTxt"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
+				odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
+				tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
+				error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
+				quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum! Lorem 
+				ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam 
+				odit, delectus error quas earum, sint ratione cumque perspiciatis cum volupta
+				tum at minus. Deleniti quasi suscipit neque quas consequatur sed. Ex impedit 
+				error iure sint architecto accusamus vel delectus quidem reprehenderit soluta 
+				quos possimus sed quod, nam, sit ratione excepturi! Consectetur, illum!
+			</p>
+		</div>
+		<div id="contact">
+			<h1 class="footerTitle">Contact</h1>
+			<i class="fas fa-map-marker-alt contacticn inline"></i> <p class="overOnsTxt2 inline">Romboutslaan 34 <br> 3312 KP Dordrecht</p> <br>
+			<i class="fas fa-mobile-alt contacticn2 inline"></i> <p class="overOnsTxt3 inline">078 - 699 9999</p> <br>
+			<i class="far fa-envelope contacticn3 inline"></i> <p class="overOnsTxt4 inline">info@davinci-handy.nl</p>
+		</div>
+	</div>
+
+	<div class="grijzeBalk">
+		<p id="naam">© Rick Snijders, 2019</p>
+	</div>
+	
+	<nav id="klapMenu">
+		<ul>
+			<a><li class="klapItm">Geschiedenis</li></a>
+			<a><li class="klapItm">Deals</li></a>
+			<a><li class="klapItm">Diensten</li></a>
+		</ul>
+	</nav>
+
+
+
+
+	<script type="text/javascript" src="handy.js"></script>
 </body>
 </html>

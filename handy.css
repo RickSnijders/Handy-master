@@ -30,21 +30,24 @@ body {
 }
 
 i {
-	font-size: 14px;
+	font-size: 12px;
 	margin-left: 2px;
 }
 
 ul {
 	list-style-type: none;
-	padding: 15px;
-	margin-left: 15px ;
-
 }
 
-li{
+#mainMenu{
+	display: flex;
+}
+
+.menuItm{
 	display: inline-block;
 	color: white;
-	margin: 10px;
+	padding: 20px 10px 20px 10px;
+	font-size: 12px;
+	font-weight: 600;
 }
 
 .center {
@@ -54,7 +57,58 @@ li{
 }
 
 .banneritm {
-	margin: 15px;
+	margin: 10px;
+	z-index: -3;
+}
+
+.banneritmbox {
+	z-index: 10;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 32px;
+	font-weight: 600;
+	background-color: rgba(34,41,49,0.8);
+	height:220px;
+	width:300px;
+	color: white;
+	text-align: center;
+	line-height: 220px;
+	opacity: 0;
+}
+
+.banneritmbox:hover, .banneritmbox2:hover, .banneritmbox3:hover{
+	opacity: 1;
+}
+.banneritmbox2 {
+	z-index: 10;
+	position: absolute;
+	top: 10px;
+	left:335px;
+	font-size: 32px;
+	font-weight: 600;
+	background-color: rgba(34,41,49,0.8);
+	height:220px;
+	width:300px;
+	color: white;
+	text-align: center;
+	line-height: 220px;
+	opacity: 0;
+}
+.banneritmbox3 {
+	z-index: 10;
+	position: absolute;
+	top: 10px;
+	left: 658.5px;
+	font-size: 32px;
+	font-weight: 600;
+	background-color: rgba(34,41,49,0.8);
+	height:220px;
+	width:300px;
+	color: white;
+	text-align: center;
+	line-height: 220px;	
+	opacity: 0;
 }
 
 #banner {
@@ -95,8 +149,174 @@ li{
 	margin-left: 330px;
 }
 
+.geelKnop:hover {
+	background-color: #222931;font-weight;
+	color:white;
+}
+
 #footer {
 	position: absolute;
-	top: 1130px;
+	top: 1110px;
 	width: 100%;
+}
+
+.banneritm2 {
+	background-color: #ffe718;
+	display: inline-block;
+	min-width: 300px;
+	margin: 10px;
+}
+
+.banneritm2:hover {
+	background-color: #222931;
+	color: white;
+}
+
+.banner2 {
+	position: relative;
+	top: 1150px;
+}
+
+.bannericn {
+	float: left;
+	font-size: 50px;
+	margin: 20px;
+}
+
+.banner2head {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 20px 5px 8px 5px;
+}
+
+.banner2txt {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.overOnsTxt {
+	max-width: 500px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #5f656d;
+}
+
+.overOnsTxt2 {
+	max-width: 500px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #5f656d;
+}
+
+.overOnsTxt3 {
+	max-width: 500px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	color: #5f656d;
+}
+
+.overOnsTxt4 {
+	max-width: 500px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #5f656d;
+}
+
+.footerTitle {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.overOns {
+	position: relative;
+	top: 1200px;
+	border-top: 1px solid #5f656d;
+	padding-top: 50px;
+}
+
+#overOnsdiv {
+	display: inline-block;
+}
+
+#contact{
+	position: absolute;
+	display: inline-block;
+	right: 150px;
+}
+.contacticn {
+	font-size: 27px;
+	display: inline-block;
+	color: #aeb6be;
+	margin-bottom: 20px;
+	margin-right: 10px;
+
+
+}
+.contacticn2 {
+	font-size: 30px;
+	display: block;
+	color: #aeb6be;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	position: relative;
+	top: 8px;
+
+}
+.contacticn3 {
+	font-size: 20px;
+	display: inline-block;
+	color: #aeb6be;
+	margin-right: 10px;
+	position: relative;
+	top: 3px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.grijzeBalk{
+	background-color: #222931;
+	position: relative;
+	top: 1250px;
+	height: 60px;
+	color: white;
+}
+
+#naam{
+	position: absolute;
+	right: 150px;
+	top: 20px;
+}
+
+#klapMenu {
+	display: none;
+	background-color: #222931;
+	color: white;
+	max-width: 200px;
+	position: absolute;
+	top: 131px;
+	left: 355px;
+}
+
+.klapItm {
+	display: block;
+	padding: 5px 40px 5px 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.menuItm:hover, .klapItm:hover {
+	background-color: #ffe718;
+	color: #222931;
+}
+
+.menuHome{
+	padding-left: 25px;
 }
