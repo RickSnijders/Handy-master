@@ -165,6 +165,7 @@ ul {
 	display: inline-block;
 	min-width: 300px;
 	margin: 10px;
+	color: black;
 }
 
 .banneritm2:hover {
@@ -174,7 +175,13 @@ ul {
 
 .banner2 {
 	position: relative;
-	top: 1150px;
+	top: 1165px;
+}
+
+.banner2Diensten {
+	position: relative;
+	top: 1165px;
+	margin-top: 135px;
 }
 
 .bannericn {
@@ -305,11 +312,23 @@ ul {
 	left: 355px;
 }
 
+#klapMenuDiensten {
+	display: none;
+	background-color: #222931;
+	color: white;
+	max-width: 200px;
+	position: absolute;
+	top: 0px;
+	left: 355px;
+}
+
 .klapItm {
 	display: block;
 	padding: 5px 40px 5px 10px;
 	font-size: 16px;
 	font-weight: 500;
+	text-decoration: none;
+	color: white;
 }
 
 .menuItm:hover, .klapItm:hover {
@@ -319,4 +338,34 @@ ul {
 
 .menuHome{
 	padding-left: 25px;
+}
+
+.breadcrumb {
+	position: absolute;
+	top: 630px;
+	color: #5f656d;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#dienstenTitle{
+	position: absolute;
+	top: 700px;
+	color: #222931;
+}
+
+.dienstenTxt {
+	position: absolute;
+	top: 770px;
+	margin-top:10px;
+	width: 1000px;
+}
+
+#pageblock {
+	position: absolute;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
 }
