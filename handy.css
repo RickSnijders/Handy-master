@@ -45,7 +45,7 @@ ul {
 .menuItm{
 	display: inline-block;
 	color: white;
-	padding: 20px 10px 20px 10px;
+	padding: 20px 5px 20px 5px;
 	font-size: 12px;
 	font-weight: 600;
 }
@@ -164,7 +164,7 @@ ul {
 	background-color: #ffe718;
 	display: inline-block;
 	min-width: 300px;
-	margin: 10px;
+	margin: 6px;
 	color: black;
 }
 
@@ -368,4 +368,74 @@ ul {
 
 a {
 	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+#menu li a:hover{
+	color: #222931;
+}
+
+#klapMenuDiesten li a:hover{
+	color: #222931;
+
+}
+
+.nieuwbouwtxt{
+	width: 150px;
+	color: white;
+	z-index: 5;
+	background-color: #aeb6be;
+	padding: 5px;
+	font-size: 12px;
+	position: absolute;
+	top: 20px;
+	right: 267px;
+	display: none;
+}
+
+.adviestxt{
+	width: 150px;
+	color: white;
+	z-index: 5;
+	background-color: #aeb6be;
+	padding: 5px;
+	font-size: 12px;
+	position: absolute;
+	top: 142px;
+	right: 15px;
+	display: none;
+}
+
+.regelgevingtxt{
+	width: 150px;
+	color: white;
+	z-index: 5;
+	background-color: #aeb6be;
+	padding: 5px;
+	font-size: 12px;
+	position: absolute;
+	top: 160px;
+	right: 435px;
+	display: none;
+}
+
+.txtblock {
+	position: absolute;
+	top: 780px;
+	width: 1000px;
+}
+
+span.nieuwbouw:hover .nieuwbouwtxt{
+	display: block;
+}
+span.advies:hover .adviestxt{
+	display: block;
+}
+span.regelgeving:hover .regelgevingtxt {
+	display: block;
+}
+
+span{
+	color: #ffe718;
 }

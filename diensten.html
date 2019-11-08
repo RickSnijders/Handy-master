@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Handy</title>
 	<link rel="stylesheet" type="text/css" href="handy.css">
 	<link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/91cc885595.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<img id="logo" src="img/logo.jpg">
+	<img id="logo" alt="logo" src="img/logo.jpg">
 	<nav id="menu">
 		<ul id="mainMenu">
-			<a href="handy.html"><li class="menuItm menuHome"> HOME</li></a>
+			<li class="menuItm menuHome"><a href="handy.html"> HOME</a></li>
 			<li  id="button" class="menuItm" onclick="openMenuDiensten()"> OVER ONS <i class="fas fa-chevron-down"></i> </li>
-			<a><li class="menuItm"> PORTFOLIO </li></a>
-			<a><li class="menuItm"> NIEUWS</li></a>
-			<a><li class="menuItm"> CONTACT </li></a>
+			<li class="menuItm"><a href="#"> PORTFOLIO </a></li>
+			<li class="menuItm"><a href="#"> NIEUWS </a></li>
+			<li class="menuItm"><a href="#"> CONTACT </a></li>
 		</ul>
 	</nav>
-	<img id="header" src="img/header.jpg">
+	<img id="header" alt="header" src="img/header.jpg">
 
 	<div class="center">
 		<p class="breadcrumb">Home > Diensten</p>
-
 		<h1 id="dienstenTitle">Diensten</h1>
-		<p class="dienstenTxt">DaVinci Handy heeft een grote historie en in de loop van de tijd zijn dan ook vele nieuwbouw projecten 
-			opgeleverd. Je kunt dan denken aan een vrijstaande woning, twee onder een kap woningen of zelfs een huizenblok. Wij gaan graag samen met jou op 
-			zoek naar je meest ideale woning, perfect passend binnen je budget in combinatie met de beste bouw kwaliteit en het juiste 
-			advies van A tot Z. Loop je dus met een idee rond om zelf te gaan bouwen? Kom dan naar DaVinci Handy en maak kennis met 
-			ons persoonlijke manier van werken. <br><br>
-			Een aanbouw of opbouw plaatsen behoort bij DaVinci Handy tot de vaste werkzaamheden. Zoveel klanten hebben wij al mogen 
-			voorzien van een efficiënte uitbreiding van hun woning. Door onze grote ervaring, eigen vakmensen en degelijke partners 
-			kunnen wij elke opdracht perfect realiseren. Vanaf het allereerste moment denken wij graag met je mee en voorzien wij je van 
-			het meest betrouwbare advies. Altijd rekening houdend met de technische haalbaarheid, het budget en regelgeving omtrent het 
-			bouwen in de wijk en/of gemeente.
-		</p>
+		<p class="dienstenTxt">
+			<div class="txtblock">
+				DaVinci Handy heeft een grote historie en in de loop van de tijd zijn dan ook vele 
+				<span class="nieuwbouw">
+				nieuwbouw
+				<div class="nieuwbouwtxt">Een nieuwbouw project zijn
+				woningen die korter dan een jaar
+				geleden gebouwd of nu nog in 
+				aanbouw zijn</div>
+				</span> 
+				projecten opgeleverd. Je kunt dan denken aan een vrijstaande woning, twee onder een kap woningen of zelfs een huizenblok. Wij gaan graag samen met jou op 
+				zoek naar je meest ideale woning, perfect passend binnen je budget in combinatie met de beste bouw kwaliteit en het juiste 
+				advies van A tot Z. Loop je dus met een idee rond om zelf te gaan bouwen? Kom dan naar DaVinci Handy en maak kennis met 
+				ons persoonlijke manier van werken. <br><br>
+				Een aanbouw of opbouw plaatsen behoort bij DaVinci Handy tot de vaste werkzaamheden. Zoveel klanten hebben wij al mogen 
+				voorzien van een efficiënte uitbreiding van hun woning. Door onze grote ervaring, eigen vakmensen en degelijke partners 
+				kunnen wij elke opdracht perfect realiseren. Vanaf het allereerste moment denken wij graag met je mee en voorzien wij je van 
+				het meest betrouwbare
+				<span class="advies">
+				advies
+				<div class="adviestxt">Neem met ons contact op om 
+				van ons advies gebruik te kunnen
+				maken</div>
+
+
+				</span>
+				. Altijd rekening houdend met de technische haalbaarheid, het budget en 
+				<span class="regelgeving">
+				regelgeving
+				<div class="regelgevingtxt"> Regelgeving kan per gemeente 
+				verschillen. Wij nemen dit voor 
+				onze rekening</div>
+
+
+				</span>
+				omtrent het 
+				bouwen in de wijk en/of gemeente.
+			</p>
+		</div>
 	</div>
 	<div id="pageblock">
 		<div id="geleBalk">
@@ -90,15 +117,12 @@
 		
 		<nav id="klapMenuDiensten">
 			<ul>
-				<a><li class="klapItm">Geschiedenis</li></a>
-				<a><li class="klapItm">Deals</li></a>
-				<a><li class="klapItm">Diensten</li></a>
+				<li class="klapItm"><a href="#"> Geschiedenis </a></li>
+				<li class="klapItm"><a href="#"> Deals </a></li>
+				<li class="klapItm"><a href="#"> Diensten </a></li>
 			</ul>
 		</nav>
 	</div>
-
-
-
-	<script type="text/javascript" src="handy.js"></script>
+	<script src="handy.js"></script>
 </body>
 </html>
